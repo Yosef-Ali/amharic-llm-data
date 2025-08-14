@@ -167,7 +167,7 @@ def generate_training_commands(env, paths, gpu_available):
             },
             {
                 'name': 'Balanced Training (30-45 min)',
-                'cmd': f'python scripts/fast_training.py --train --model bloom-560m --steps 300 --output {models_dir}/amharic-bloom560m',
+                'cmd': f'python scripts/fast_training.py --train --model bloom-560m --steps 300 --output {models_dir}/amharic-bloom560m-finetuned',
                 'desc': 'Good quality for most uses'
             },
             {
