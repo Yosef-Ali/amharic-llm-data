@@ -1,0 +1,17 @@
+{
+  "total_examples": 5883,
+  "splits": {
+    "train": 5294,
+    "validation": 294,
+    "test": 295
+  },
+  "tasks": {
+    "classification": 5883
+  },
+  "sources": {
+    "amharic_news_israel": 2937,
+    "amharic_news_classification": 2946
+  },
+  "avg_instruction_length": 62.75335713071562,
+  "avg_response_length": 6.69862315145334
+}
